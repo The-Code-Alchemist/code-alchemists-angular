@@ -8,3 +8,26 @@ footer {
   width: 100%;
   z-index: 1000;
 }
+
+.shining-gold {
+  color: #FFD700;
+  text-shadow:
+    0 0 5px #ffec8b,
+    0 0 10px #fff8dc,
+    0 0 15px #FFD700;
+  animation: shine 2s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px #ffec8b;
+  }
+  50% {
+    text-shadow: 0 0 15px #fff8dc;
+  }
+  100% {
+    text-shadow: 0 0 5px #ffec8b;
+  }
+}
+
+
