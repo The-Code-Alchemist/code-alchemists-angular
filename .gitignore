@@ -5,14 +5,27 @@
 /tmp
 /out-tsc
 /bazel-out
+*.js
+*.js.map
 
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
 
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment files
+/src/environments/*.ts
+!.src/environments/environment.prod.ts
+
 # IDEs and editors
 .idea/
+*.iml
 .project
 .classpath
 .c9/
@@ -40,3 +53,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# If you're using Mac/Linux
+*.swp
+*.swo
