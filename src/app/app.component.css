@@ -1,0 +1,9 @@
+main {
+  padding: 2rem;
+  margin-top: 70px;   /* Adjust to match the header's height */
+  margin-bottom: 70px; /* Also accounts for the fixed footer */
+  min-height: calc(100vh - 140px); /* Full height minus header + footer */
+  background-color: #f5f5f5;
+  color: #333;
+  box-sizing: border-box;
+}
