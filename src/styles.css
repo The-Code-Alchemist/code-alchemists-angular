@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+.responsive-image {
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+}
