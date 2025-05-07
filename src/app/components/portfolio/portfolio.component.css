@@ -1,0 +1,6 @@
+.social-links {
+  display: flex;
+  gap: 1rem; /* roughly equal to the size of each icon */
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
